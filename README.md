@@ -1,4 +1,4 @@
-# Task-Maanger
+# Task-Manager
 This is a REST API designed in the context of a task-manager app.
 
 ## Routes
