@@ -12,6 +12,10 @@ app.use(express.json());    //parses incoming JSON requests as JS objects.
 app.use(userRouter);
 app.use(taskRouter); 
 
+app.get('/', (req, res) => {
+   res.send(<h3>"Hi there! Please use the site from a API developement tool like Postman."</h3>); 
+});
+
 app.listen(port, () => {
     console.log('Server is up on the port ' + port);
 });
