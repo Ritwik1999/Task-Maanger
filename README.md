@@ -52,7 +52,7 @@ method: DELETE
 desc: Upload an avatar (max. size: 250px x 250px)
 method: POST
 ```
-The response from the above method includes the ```_id``` that can be noted as it is can be used to access your avatar outside of the API
+The response from the above method includes the ```_id``` that can be noted as it can be used to access your avatar outside of the API
 
 ```
 /users/me/avatar
@@ -100,7 +100,7 @@ method: DELETE
 
 ### Configuring
 
-Rename the ```.env.example``` file to ```dev.env``` and put it in ```/config/``` to configure the app.
+Rename the ```.env.example``` file to ```dev.env``` and move it to ```/config/``` to configure the app.
 
 
 
