@@ -52,7 +52,7 @@ method: DELETE
 desc: Upload an avatar (max. size: 250px x 250px)
 method: POST
 ```
-The response from the above method includes the ```_id``` that can be notes as it is can be used to access your avatar outside of the API
+The response from the above method includes the ```_id``` that can be noted as it is can be used to access your avatar outside of the API
 
 ```
 /users/me/avatar
